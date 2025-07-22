@@ -1,0 +1,9 @@
+def extract_username(email):
+    username = email.split('@')[0]
+    return username
+
+# Input from user
+email = input("Enter your email address: ")
+username = extract_username(email)
+
+print(f"Username extracted: {username}")
